@@ -21,5 +21,10 @@ public class homeController {
     @RequestMapping(value="/inicio.htm", method = RequestMethod.GET)
     public String inicio(Model model){        
         return "inicio";
-    }    
+    }
+    
+    @RequestMapping(value="/login.htm", method = RequestMethod.POST)
+    public String login(Model model){        
+        return "inicio";
+    }
 }
