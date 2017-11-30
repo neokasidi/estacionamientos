@@ -15,7 +15,7 @@
     
     <mvc:annotation-driven></mvc:annotation-driven>
     <tx:annotation-driven></tx:annotation-driven>
-    <context:component-scan base-package="cl.duoc.inventario" ></context:component-scan>
+    <context:component-scan base-package="duoc" ></context:component-scan>
     
     <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
 
